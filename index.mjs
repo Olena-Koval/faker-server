@@ -26,6 +26,6 @@ app.get("/accounts", function (req, res) {
   // res.send(accountTexto)
   res.json(accounts);
 });
-app.listen(3005, function () {
-  console.log("Example app listening on port 3005!");
+app.listen(3000, function () {
+  console.log("Example app listening on port 3000!");
 });
